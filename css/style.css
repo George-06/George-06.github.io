@@ -1,14 +1,22 @@
-.height-main{
-height: 100vh;
 
+.apple-nav {
+  background-color: #1c1c1e; /* donkergrijs, bijna zwart */
+  border-radius: 12px;
+  padding: 0.4rem 1rem;
+  display: inline-flex;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.nav-text {
-  text-decoration: none;
-  color: #000;
-    padding-left: 15px;
-
+.apple-nav .nav-link {
+  color: #f5f5f7;
+  border: none;
+  margin: 0 0.3rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  font-weight: 500;
 }
-.nav-text:hover {
-  color: #333333;
+
+.height{
+height: 40vh;
+
 }
