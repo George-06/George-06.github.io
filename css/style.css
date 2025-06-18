@@ -1,4 +1,7 @@
+*{
+overflow: hidden;
 
+}
 .apple-nav {
   background-color: #1c1c1e; /* donkergrijs, bijna zwart */
   border-radius: 12px;
@@ -16,7 +19,34 @@
   font-weight: 500;
 }
 
-.height{
-height: 88vh;
+.footer-height {
+  height: 59vh;
+}
+
+.home-height{
+  height: 20vh;
 
 }
+
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 70px 0;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 30px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.skills-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
