@@ -1,88 +1,112 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="nl">
 
 <head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vaardigheden - Mijn Portfolio</title>
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
-  <header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="d-flex justify-content-center apple-nav mt-3 ">
-                <ul class="nav nav-tabs" id="navId" role="tablist"> 
-                </li>
-                    <li class="nav-item" role="presentation">
-                        <a href="index.html" class="nav-link" data-bs-toggle="tab">Home</a>
+<body class="no-scroll">
+
+    <!-- Navigatie -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <h5 class="mb-0">Mijn Portfolio</h5>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">>
+                <div class="navbar-toggler-icon"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <a href="projects.html" class="nav-link" data-bs-toggle="tab">Projecten</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projecten</a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <a href="skills.html" class="nav-link" data-bs-toggle="tab">Vaardigheden</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="copy.html">Vaardigheden</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </div>
-   
-  </header>
-  <main>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-"></div>
-        </div>
-    </div>
-    <div class="card-group col-md-6 justify-content-center">
-        <div class="card">
-            <img class="card-img-top" src="holder.js/100x180/" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text"></p>
+    </nav>
+
+    <!-- Vaardigheden -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Mijn Vaardigheden</h2>
+            <div class="row justify-content-center g-4">
+
+                <div class="col-6 col-md-3">
+                    <div class="card text-center h-100 shadow-sm rounded-4 p-4">
+
+                        <img src="img/php.png" alt="PHP logo" class="mx-auto mb-3" style=" object-fit: contain;">
+                        <h5>PHP</h5>
+                        <div class="progress mt-3" role="progressbar" aria-label="PHP vaardigheid" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-3">
+                    <div class="card text-center h-100 shadow-sm rounded-4 p-4">
+                        <img src="img/mysql.png" alt="MySQL logo" class="mx-auto mb-3" style=" object-fit: contain;">
+                        <h5>MySQL</h5>
+                        <div class="progress mt-3" role="progressbar" aria-label="MySQL vaardigheid" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-3">
+                    <div class="card text-center h-100 shadow-sm rounded-4 p-4">
+                        <img src="img/html.png" alt="HTML logo" class="mx-auto mb-3" style=" object-fit: contain;">
+                        <h5>HTML</h5>
+                        <div class="progress mt-3" role="progressbar" aria-label="HTML vaardigheid" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="card text-center h-100 shadow-sm rounded-4 p-4 ">
+                        <img src="img/css-3.png" alt="CSS logo" class="mx-auto mb-3" style="object-fit: contain;">
+                        <h5>CSS</h5>
+                        <div class="progress mt-3" role="progressbar" aria-label="CSS vaardigheid" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src="holder.js/100x180/" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-            </div>
+    </section>
+    <div class="vaardigeheden-ft"></div>
+    <!-- Footer -->
+    <footer class=" footer text-center mt-auto">
+        <div class="container">
+            <p>&copy; Portfolio van George</p>
         </div>
-    </div>
-    
+    </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-  </main>
-  <footer>
-    
-  </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-  </script>
-
-  <script>
-      var triggerEl = document.querySelector('#navId a')
-      bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-  </script>
-  <script>
-      var triggerEl = document.querySelector('#navId a')
-      bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-  </script>
 </body>
 
 </html>
