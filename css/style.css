@@ -1,28 +1,16 @@
-*{
+.no-scroll{
 overflow: hidden;
-
-}
-.apple-nav {
-  background-color: #1c1c1e; /* donkergrijs, bijna zwart */
-  border-radius: 12px;
-  padding: 0.4rem 1rem;
-  display: inline-flex;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.apple-nav .nav-link {
-  color: #f5f5f7;
-  border: none;
-  margin: 0 0.3rem;
-  border-radius: 8px;
-  transition: background-color 0.2s ease;
-  font-weight: 500;
-}
 
-.footer-height {
-  height: 59vh;
-}
 
+.index-ft {
+  height: 63vh;
+}
+.projects-ft{
+  height: 2vh;
+
+}
 .home-height{
   height: 20vh;
 
